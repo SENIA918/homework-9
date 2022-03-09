@@ -1,0 +1,72 @@
+body {
+  font-size: 16px;
+  max-width: 700px;
+}
+div {
+  margin: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+.pablic {
+  margin-left: -4px;
+}
+form {
+  padding: 0.3em;;
+}
+input[type=text] { 
+  width: 95%;
+}
+select {
+  width: 98%;
+}
+textarea {
+  width: 95%;
+}
+@media all and (min-width: 500px) {
+  select {
+    width: 31%; 
+  }
+  input[type=text] { 
+    width: 30%;
+  }
+   textarea {
+    width: 30%;
+  }
+  .pablic {
+    display: inline-block;
+  }
+}
+@media all and (min-width: 750px) {
+  .lastName label {
+    margin-right: 114px;
+  }
+  .pablic_radio label:first-child {
+    margin-right: 86px; 
+  }
+  .ferstName label {
+    margin-right: 58px;
+  }
+  select {
+    width: 25%; 
+  }
+  input[type=text] { 
+    width: 37%;
+  }
+  textarea {
+    width: 55%;
+  }
+  .pablic {
+    display: inline-block;
+  } 
+}
+@media all and (min-width: 768px) {
+  select {
+    width: 25%; 
+  }
+  input[type=text] { 
+    width: 51%;
+  }
+  textarea {
+    width: 78%;
+  }
+}
