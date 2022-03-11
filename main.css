@@ -1,0 +1,81 @@
+.color_div{
+  background-color: rgb(231, 166, 85);
+}
+.contents {
+  background-color: rgb(147, 153, 238);
+  font-size: 30px;
+  text-align: center;
+}
+.list {
+  background-color: rgb(231, 166, 85);
+  float: left; 
+  max-width: 170px;
+  margin-right: 18px;
+}
+.list_ul{
+  margin: 1px;
+  margin-left: 10px;
+}
+.fon {
+  background-color: rgb(247, 244, 241);
+  background-image:url(img/bool.png); background-repeat: repeat-y;
+  background-position: 100% 20%;
+  margin-left: 190px;
+}
+.text {
+  vertical-align:top;
+  margin: 5px;
+}
+ .image  {
+  background:url(img/cub.png);
+  height: 135px;
+  width: 200px;
+  float:left;
+  margin-right:8px;
+}
+.heading {
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+}
+.clear {
+  clear: both;
+}
+.footers {
+  background-color: rgb(147, 153, 238);
+  font-size: 30px;
+  text-align: center; 
+}
+.links {
+  position: fixed; right: 5mm; top: 20px; z-index: 10;
+  width: 120px;
+  height: 50px;
+  background: rgb(33, 230, 99);
+  text-align: center;
+  border: 2px solid green;
+  font-size: 20px;
+}
+@media all and (max-width:760px) {
+  .image {
+    display: none;
+  }
+.fon {
+  background-image: none;
+  }
+}
+@media all and (max-width:460px){
+  .list {
+    float: none;
+    background-color: white;
+  }
+  .color_div{
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  .fon  {
+    margin-left: 0;
+    border-top: 3px solid rgb(147, 153,
+    238);
+    margin-top: 10px;
+  }
+}
